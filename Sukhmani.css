@@ -1,17 +1,36 @@
+html {
+	background-color: #464442;
+}
+
 body {
   text-align: left;
+  width: auto;
+  margin: 0 auto;
 }
 
 h1 {
-  text-align: left;
-  color: red;
+ background-color: #F7E0B2;
+ padding: 10px;
+ margin: 10px;
+ text-align: left;
+ font-family: "Inknut Antiqua", Verdana, Arial, sans-serif;
+ font-size: 48px;
+ color: red;
 }
 
 h2 {
+  background-color: #F7E0B2;
+  padding: 10px;
+  margin: 10px;
+  font-family: "Overlock", Verdana, Arial, sans-serif;
+  font-size: 36px;
   text-align: left;
   color: blue;
 }
 h3 {
+  background-color: #F7E0B2;
+  padding: 10px;
+  margin: 10px;
   color: green;
 
 }
@@ -32,8 +51,9 @@ img {
 }
 
 h4 {
-  color: red; /* Heading color for Image 1 */
+  color: green; /* Heading color for Image 1 */
   text-align: center;
+  font-size: 12px;
 }
 
 .caption {
@@ -42,27 +62,39 @@ h4 {
 }
 
 .grid-item:nth-child(2) h4 {
-  color: red; /* Heading color for Image 2 */
+  color: green; /* Heading color for Image 2 */
 }
 
 .grid-item:nth-child(2) .caption {
-  color: red; /* Caption color for Image 2 */
+  color: green; /* Caption color for Image 2 */
 }
 
 .grid-item:nth-child(3) h4 {
-  color: red; /* Heading color for Image 3 */
+  color: green; /* Heading color for Image 3 */
 }
 
 .grid-item:nth-child(3) .caption {
-  color: red; /* Caption color for Image 3 */
+  color: green; /* Caption color for Image 3 */
+}
+
+
+
+/*footer*/
+
+footer {
+	background-color: #464442;
+	border: 1px solid #F7E0B2;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
 }
 
 footer {
   text-align: right;
-  color: green;
+  color: white ;
 }
 
 footer a {
   margin: 0 10px;
+  color: white;
 }
-
