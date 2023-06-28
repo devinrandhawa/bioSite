@@ -2,42 +2,70 @@ html {
 	background-color: #464442;
 }
 
+header {
+  background-color: DarkRed;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+h1 {
+  font-family: Arial
+  font-weight: 400;
+  font-size: 42px;
+}
+
+#navbar {
+  background-color: DarkRed;
+  border-bottom: 1px solid DarkRed;
+  text-align: left;
+  overflow: hidden;
+}
+
+#navbar a {
+  display: inline-block;
+  color: white;
+  text-align: left;
+  padding: 12px 12px;
+}
+
+#navbar a:hover {
+  background-color: DarkRed;
+  color: #fff;
+}
+
+#container {
+  margin: 2% 5% 100px 0%;
+  padding: 10px;
+  width: 100%
+}
+
+
 body {
   text-align: left;
   width: auto;
   margin: 0 auto;
 }
 
-h1 {
- background-color: #F7E0B2;
- padding: 10px;
- margin: 10px;
- text-align: left;
- font-family: "Inknut Antiqua", Verdana, Arial, sans-serif;
- font-size: 48px;
- color: red;
-}
-
 h2 {
-  background-color: #F7E0B2;
-  padding: 10px;
-  margin: 10px;
-  font-family: "Overlock", Verdana, Arial, sans-serif;
+  background-color: DarkRed;
   font-size: 36px;
   text-align: left;
-  color: blue;
+  color: white;
+  font-weight: normal;
 }
-h3 {
-  background-color: #F7E0B2;
-  padding: 10px;
-  margin: 10px;
-  color: green;
 
+h3 {
+  background-color: DarkRed;
+  font-size: 32px;
+  color: white;
+  font-weight: normal;
 }
 
 .image-container {
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 .grid-item {
@@ -51,50 +79,45 @@ img {
 }
 
 h4 {
-  color: green; /* Heading color for Image 1 */
+  color: white; /* Heading color for Image 1 */
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .caption {
   text-align: center;
-  color: green; /* Caption color for Image 1 */
+  color: white; /* Caption color for Image 1 */
 }
 
 .grid-item:nth-child(2) h4 {
-  color: green; /* Heading color for Image 2 */
+  color: white; /* Heading color for Image 2 */
 }
 
 .grid-item:nth-child(2) .caption {
-  color: green; /* Caption color for Image 2 */
+  color: white; /* Caption color for Image 2 */
 }
 
 .grid-item:nth-child(3) h4 {
-  color: green; /* Heading color for Image 3 */
+  color: white; /* Heading color for Image 3 */
 }
 
 .grid-item:nth-child(3) .caption {
-  color: green; /* Caption color for Image 3 */
+  color: white; /* Caption color for Image 3 */
 }
 
-
-
-/*footer*/
+/* Footer */
 
 footer {
-	background-color: #464442;
-	border: 1px solid #F7E0B2;
-	padding: 5px;
-	margin: 5px;
-	text-align: center;
-}
-
-footer {
+  background-color: DarkRed;
+  padding: 5px;
+  margin: 5px;
   text-align: right;
-  color: white ;
+  color: white;
 }
 
 footer a {
   margin: 0 10px;
   color: white;
+  text-decoration: none;
 }
