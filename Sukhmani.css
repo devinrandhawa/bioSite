@@ -41,23 +41,6 @@ h1 {
   color: white;
 }
 
-.hobbies-item {
-  display: inline-block;
-  text-align: center;
-  margin: 10px;
-}
-
-
-
-.grid-item img {
-  max-width: 100%;
-  height: auto;
-}
-
-.caption {
-  color: white;
-}
-
 #content {
   display: flex;
   flex-direction: row;
@@ -170,6 +153,7 @@ h4 {
 #nav a {
   color: white;
 }
+
 
 /* Footer */
 
