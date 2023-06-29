@@ -96,7 +96,7 @@ h3 {
 
 img {
   margin: 0 10px;
-  max-width: 80%;
+  max-width: 30%;
   height: auto;
 }
 
@@ -128,9 +128,6 @@ h4 {
   color: white; /* Caption color for Image 3 */
 }
 
-#nav a {
-  color: white;
-}
 
 /* Footer */
 
