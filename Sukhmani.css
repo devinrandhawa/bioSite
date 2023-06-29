@@ -64,12 +64,9 @@ h1 {
 }
 
 .grid-item img {
-  width: 50%;
+  width: 30%;
   height: auto;
 
-.grid-item img {
-  max-width: 100%;
-  height: auto;
 }
 
 .caption {
