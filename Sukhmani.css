@@ -47,26 +47,11 @@ h1 {
   margin: 10px;
 }
 
-#image-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0px;
-  margin-top: 10%
-  border: 1px solid red;
-  padding: 0px;
- 
-}
 
-.grid-item {
-  text-align: center;
-  border: 1px solid red;
-  padding: 10px;
-}
 
 .grid-item img {
-  width: 30%;
+  max-width: 100%;
   height: auto;
-
 }
 
 .caption {
