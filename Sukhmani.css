@@ -20,6 +20,7 @@ h1 {
   background-color: DarkRed;
   border-bottom: 1px solid DarkRed;
   text-align: left;
+  text-color: white;
   overflow: hidden;
 }
 
@@ -32,7 +33,7 @@ h1 {
 
 #navbar a:hover {
   background-color: DarkRed;
-  color: white;
+  text-color: white;
 }
 
 #container {
@@ -105,6 +106,28 @@ h4 {
 .grid-item:nth-child(3) .caption {
   color: white; /* Caption color for Image 3 */
 }
+ /* CSS styling */
+    #navbar a {
+      color: white;
+    }
+
+    #content {
+      display: flex;
+      flex-direction: row;
+    }
+
+    #content .text {
+      flex: 1;
+      text-align: left;
+      color: white;
+    }
+
+    #content .image {
+      flex: 1;
+      text-align: right;
+    }
+
+
 
 /* Footer */
 
