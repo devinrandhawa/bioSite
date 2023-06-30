@@ -8,12 +8,17 @@
 .hobbies-item {
   display: inline-block;
   text-align: center;
-  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px;
+  margin-top: 10%
+  border: 1px solid red;
+  padding: 0px;
 }
 
 .hobbies-item img {
-  max-width: 50%;
-  height: auto auto auto;
+  max-width: 70%;
+  height: auto;
 }
 
 .caption {
