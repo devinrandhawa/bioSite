@@ -33,7 +33,7 @@ h1 {
 }
 
 .border {
-      box-shadow: 0px -5px 0px red, 0px 5px 0px red;
+      box-shadow: 0px 0px 0px DarkRed, 0px 0px 0px DarkRed;
     }
 
 #navbar a:hover {
@@ -136,8 +136,8 @@ h4 {
 
 footer {
   background-color: DarkRed;
-  padding: 5px;
-  margin: 5px;
+  padding: 0px;
+  margin: 0px;
   text-align: right;
   color: white;
 }
