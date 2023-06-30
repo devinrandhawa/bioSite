@@ -93,42 +93,6 @@ h3 {
   color: white;
 }
 
-.hobbies-container .hobbies-paragraph {
-  margin-top: 20px;
-}
-
-  
-    .hobbies-row {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      margin-top: 10%;
-      border: 10px solid red;
-      padding: 10px;
-    }
-  
-    .hobbies-item {
-      flex-basis: 30%;
-      text-align: center;
-      padding: 10px;
-      height: auto;
-    }
-  
-    .hobbies-item img {
-      max-width: 100%;
-      height: auto;
-      padding: 10px;
-    }
-  
-    .caption {
-      color: white;
-    }
-
-.grid-item {
-  flex: 1;
-}
-
 img {
   margin: 0 10px;
   max-width: 80%;
