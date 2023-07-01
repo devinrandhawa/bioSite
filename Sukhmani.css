@@ -85,6 +85,8 @@ body {
 h2 {
   background-color: DarkRed;
   font-size: 36px;
+  margin-left: -20px;
+  margin-right: -20px;
   text-align: left;
   color: white;
   font-weight: normal;
@@ -93,6 +95,8 @@ h2 {
 h3 {
   background-color: DarkRed;
   font-size: 32px;
+  margin-left: -20px;
+  margin-right: -20px;
   color: white;
   font-weight: normal;
 }
@@ -104,8 +108,8 @@ h3 {
 }
 
 img {
-  margin: 0 10px;
-  width: 300px;
+  margin: 10px;
+  width: 400px;
   height: auto;
 }
 
