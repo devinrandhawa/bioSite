@@ -45,6 +45,7 @@ h1 {
 #navbar a:hover {
   background-color: DarkRed;
   text-color: white;
+  
 }
 
 /* CSS styling */
@@ -109,7 +110,7 @@ h3 {
 
 img {
   margin: 10px;
-  width: 400px;
+  width: 300px;
   height: auto;
 }
 
