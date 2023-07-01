@@ -104,6 +104,7 @@ h3 {
 
 .image-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   color: white;
 }
@@ -111,13 +112,14 @@ h3 {
 img {
   margin: 10px;
   width: 300px;
-  height: auto;
+  height: 500px;
+  object-fit: cover;
 }
 
 h4 {
   color: white; /* Heading color for Image 1 */
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
 }
 
