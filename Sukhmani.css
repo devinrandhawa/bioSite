@@ -101,7 +101,7 @@ h2 {
 }
 
 img {
-  margin: 10px;
+  margin: 10px 5px;
   width: 300px;
   height: auto;
   object-fit: cover;
