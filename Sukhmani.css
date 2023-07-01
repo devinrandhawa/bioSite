@@ -7,6 +7,9 @@ header {
   color: white;
   padding: 20px;
   text-align: left;
+  margin-top: 0;
+  width: 100%
+  position: absolute;
 }
 
 h1 {
