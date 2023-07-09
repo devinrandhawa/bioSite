@@ -43,7 +43,7 @@ h1 {
     }
 
 #navbar a:hover {
-  background-color: DarkRed;
+  background-color:  #464442;
   text-color: white;
   
 }
@@ -100,11 +100,13 @@ h2 {
   color: white;
 }
 
+
 img {
   margin: 8px 8px;
   width: 300px;
   height: auto;
   object-fit: cover;
+  border: 20px solid white;
 }
 
 h3 {
